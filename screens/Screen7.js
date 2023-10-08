@@ -3,7 +3,6 @@ import CheckBox from 'react-native-check-box';
 import Navbar from '../components/Navbar';
 
 const Screen7 = () => {
-    const [isSelected, setSelection] = useState(false);
   return (
     <View style={{justifyContent:'space-between', flex: 1, flexDirection: 'column', marginTop:30}}>
         <View>
